@@ -27,7 +27,7 @@
     </Volume>
       <Volume>
       <HostDir></HostDir>
-      <ContainerDir>/folder2flickr</ContainerDir>
+      <ContainerDir>/folders2flickr</ContainerDir>
       <Mode>rw</Mode>
     </Volume>
   </Data>
