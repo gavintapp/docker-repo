@@ -6,8 +6,8 @@
   <Overview>Document management system</Overview>
   <Support>http://lime-technology.com/forum/</Support>
   <Description></Description>
-  <Registry>https://registry.hub.docker.com/u/snoopy86/alfresco</Registry>
-  <Repository>snoopy86/alfresco</Repository>
+  <Registry>https://registry.hub.docker.com/u/gui81/alfresco</Registry>
+  <Repository>gui81/alfresco</Repository>
   <BindTime>true</BindTime>
   <Privileged>false</Privileged>
   <Environment>
