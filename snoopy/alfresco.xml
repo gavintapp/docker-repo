@@ -17,38 +17,8 @@
     </Variable>
   </Environment>
   <Networking>
-    <Mode>bridge</Mode>
+    <Mode>host</Mode>
     <Publish>
-        <Port>
-        <HostPort>21</HostPort>
-        <ContainerPort>21</ContainerPort>
-        <Protocol>tcp</Protocol>
-      </Port>
-      <Port>
-        <HostPort>137</HostPort>
-        <ContainerPort>137</ContainerPort>
-        <Protocol>tcp</Protocol>
-      </Port>     
-      <Port>
-        <HostPort>138</HostPort>
-        <ContainerPort>138</ContainerPort>
-        <Protocol>tcp</Protocol>
-      </Port>
-	  <Port>
-        <HostPort>139</HostPort>
-        <ContainerPort>139</ContainerPort>
-        <Protocol>tcp</Protocol>
-      </Port>
-	  <Port>
-        <HostPort>445</HostPort>
-        <ContainerPort>445</ContainerPort>
-        <Protocol>tcp</Protocol>
-      </Port>
-	  <Port>
-        <HostPort>7070</HostPort>
-        <ContainerPort>7070</ContainerPort>
-        <Protocol>tcp</Protocol>
-      </Port>
 	  <Port>
         <HostPort>8080</HostPort>
         <ContainerPort>8080</ContainerPort>
@@ -68,7 +38,7 @@
       <Mode>rw</Mode>
     </Volume>
   </Data>
-  <WebUI></WebUI>
+  <WebUI>http://[IP]:[PORT:8080]/</WebUI>
   <Banner>https://cdn.evbuc.com/eventlogos/1509557/alfrescologotransparentbackground5bconverted5d.png</Banner>
   <Icon>https://www.alfresco.com/sites/www.alfresco.com/files/alfresco-logo.png</Icon>
 </Container>
