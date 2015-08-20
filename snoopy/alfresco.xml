@@ -6,8 +6,8 @@
   <Overview>Document management system</Overview>
   <Support>http://lime-technology.com/forum/</Support>
   <Description></Description>
-  <Registry>https://registry.hub.docker.com/u/gui81/alfresco</Registry>
-  <Repository>gui81/alfresco</Repository>
+  <Registry>https://registry.hub.docker.com/u/mikelasla/alfresco-standalone</Registry>
+  <Repository>mikelasla/alfresco-standalone</Repository>
   <BindTime>true</BindTime>
   <Privileged>false</Privileged>
   <Environment>
@@ -19,34 +19,14 @@
   <Networking>
     <Mode>bridge</Mode>
     <Publish>
-        <Port>
-        <HostPort>21</HostPort>
-        <ContainerPort>21</ContainerPort>
-        <Protocol>tcp</Protocol>
-      </Port>
-      <Port>
-        <HostPort>137</HostPort>
-        <ContainerPort>137</ContainerPort>
-        <Protocol>tcp</Protocol>
-      </Port>     
-      <Port>
-        <HostPort>138</HostPort>
-        <ContainerPort>138</ContainerPort>
+	  <Port>
+        <HostPort>8009</HostPort>
+        <ContainerPort>8009</ContainerPort>
         <Protocol>tcp</Protocol>
       </Port>
 	  <Port>
-        <HostPort>139</HostPort>
-        <ContainerPort>139</ContainerPort>
-        <Protocol>tcp</Protocol>
-      </Port>
-	  <Port>
-        <HostPort>445</HostPort>
-        <ContainerPort>445</ContainerPort>
-        <Protocol>tcp</Protocol>
-      </Port>
-	  <Port>
-        <HostPort>7070</HostPort>
-        <ContainerPort>7070</ContainerPort>
+        <HostPort>8443</HostPort>
+        <ContainerPort>8443</ContainerPort>
         <Protocol>tcp</Protocol>
       </Port>
 	  <Port>
@@ -59,12 +39,7 @@
   <Data>
    <Volume>
       <HostDir></HostDir>
-      <ContainerDir>/alfresco/alf_data</ContainerDir>
-      <Mode>rw</Mode>
-    </Volume>
-      <Volume>
-      <HostDir></HostDir>
-      <ContainerDir>/alfresco/tomcat/logs</ContainerDir>
+      <ContainerDir>/usr/local/alfresco/alf_data</ContainerDir>
       <Mode>rw</Mode>
     </Volume>
   </Data>
