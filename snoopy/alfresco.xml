@@ -68,7 +68,7 @@
       <Mode>rw</Mode>
     </Volume>
   </Data>
-  <WebUI></WebUI>
+  <WebUI>http://[IP]:[PORT:8080]/</WebUI>
   <Banner>https://cdn.evbuc.com/eventlogos/1509557/alfrescologotransparentbackground5bconverted5d.png</Banner>
   <Icon>https://www.alfresco.com/sites/www.alfresco.com/files/alfresco-logo.png</Icon>
 </Container>
