@@ -10,7 +10,7 @@
   <Repository>snoopy86/emoncms</Repository>
   <BindTime>true</BindTime>
   <Privileged>false</Privileged>
-  <Environment> 
+  <Environment>
     <Variable>
       <Name></Name>
       <Value></Value>
