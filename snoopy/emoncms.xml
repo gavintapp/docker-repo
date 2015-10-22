@@ -32,6 +32,31 @@
     </Publish>
   </Networking>
   <Data>
+	<Volume>
+      <HostDir></HostDir>
+      <ContainerDir>/etc/mysql</ContainerDir>
+      <Mode>rw</Mode>
+    </Volume>
+	<Volume>
+      <HostDir></HostDir>
+      <ContainerDir>/var/lib/mysql</ContainerDir>
+      <Mode>rw</Mode>
+    </Volume>
+	<Volume>
+      <HostDir></HostDir>
+      <ContainerDir>/var/lib/phpfiwa</ContainerDir>
+      <Mode>rw</Mode>
+    </Volume>
+	<Volume>
+      <HostDir></HostDir>
+      <ContainerDir>/var/lib/phpfina</ContainerDir>
+      <Mode>rw</Mode>
+    </Volume>
+	<Volume>
+      <HostDir></HostDir>
+      <ContainerDir>/var/lib/phptimeseries</ContainerDir>
+      <Mode>rw</Mode>
+    </Volume>
   </Data>
   <WebUI>http://[IP]:[PORT:8998]/</WebUI>
   <Banner>http://emoncms.org/Modules/site/emoncms_front.png</Banner>
