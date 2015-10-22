@@ -12,8 +12,8 @@
   <Privileged>false</Privileged>
   <Environment>
     <Variable>
-      <Name></Name>
-      <Value></Value>
+      <Name>MYSQL_PASSWORD</Name>
+      <Value>yourpassword</Value>
     </Variable>
   </Environment>
   <Networking>
