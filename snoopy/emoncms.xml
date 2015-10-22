@@ -18,20 +18,22 @@
   </Environment>
   <Networking>
     <Mode>bridge</Mode>
+	<Publish>
+	  <Port>
+        <HostPort>8998</HostPort>
+        <ContainerPort>80</ContainerPort>
+        <Protocol>tcp</Protocol>
+      </Port>
+	  <Port>
+        <HostPort>3307</HostPort>
+        <ContainerPort>3306</ContainerPort>
+        <Protocol>tcp</Protocol>
+      </Port>
+    </Publish>
   </Networking>
   <Data>
-   <Volume>
-      <HostDir></HostDir>
-      <ContainerDir>/pictures</ContainerDir>
-      <Mode>rw</Mode>
-    </Volume>
-      <Volume>
-      <HostDir></HostDir>
-      <ContainerDir>/folders2flickr</ContainerDir>
-      <Mode>rw</Mode>
-    </Volume>
   </Data>
-  <WebUI></WebUI>
+  <WebUI>http://[IP]:[PORT:8998]/</WebUI>
   <Banner>http://emoncms.org/Modules/site/emoncms_front.png</Banner>
   <Icon>http://emoncms.org/Modules/site/emoncms_front.png</Icon>
 </Container>
