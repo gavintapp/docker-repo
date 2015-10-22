@@ -1,1 +1,37 @@
-test
+<?xml version="1.0" encoding="utf-8"?>
+<Container>
+  <Name>Emoncms</Name>
+  <Beta>False</Beta>
+<Category>Productivity:</Category>
+  <Overview>Energy monitor</Overview>
+  <Support>http://lime-technology.com/forum/</Support>
+  <Description></Description>
+  <Registry>https://registry.hub.docker.com/u/snoopy86/emoncms</Registry>
+  <Repository>snoopy86/emoncms</Repository>
+  <BindTime>true</BindTime>
+  <Privileged>false</Privileged>
+  <Environment>
+    <Variable>
+      <Name></Name>
+      <Value></Value>
+    </Variable>
+  </Environment>
+  <Networking>
+    <Mode>bridge</Mode>
+  </Networking>
+  <Data>
+   <Volume>
+      <HostDir></HostDir>
+      <ContainerDir>/pictures</ContainerDir>
+      <Mode>rw</Mode>
+    </Volume>
+      <Volume>
+      <HostDir></HostDir>
+      <ContainerDir>/folders2flickr</ContainerDir>
+      <Mode>rw</Mode>
+    </Volume>
+  </Data>
+  <WebUI></WebUI>
+  <Banner>http://emoncms.org/Modules/site/emoncms_front.png</Banner>
+  <Icon>http://emoncms.org/Modules/site/emoncms_front.png</Icon>
+</Container>
