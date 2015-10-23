@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Container>
   <Name>Flickr-uploader</Name>
-  <Beta>False</Beta>
+  <Beta>True</Beta>
 <Category>Productivity:</Category>
   <Overview>Upload pictures to flicker</Overview>
   <Support>http://lime-technology.com/forum/</Support>
