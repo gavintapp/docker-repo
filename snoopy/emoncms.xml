@@ -2,8 +2,8 @@
 <Container>
   <Name>Emoncms</Name>
   <Beta>False</Beta>
-<Category>Productivity:</Category>
-<Date>2015-10-24</Date>
+  <Category>Productivity:</Category>
+  <Date>2015-10-24</Date>
   <Overview>Energy monitor</Overview>
   <Description></Description>
   <Registry>https://registry.hub.docker.com/u/snoopy86/emoncms</Registry>
