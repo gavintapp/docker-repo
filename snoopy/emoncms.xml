@@ -4,6 +4,7 @@
   <Beta>False</Beta>
   <Category>Productivity:</Category>
   <Date>2015-10-24</Date>
+  <Support>http://lime-technology.com/forum/index.php?topic=43610.0</Support>
   <Overview>Energy monitor</Overview>
   <Description></Description>
   <Registry>https://registry.hub.docker.com/u/snoopy86/emoncms</Registry>
