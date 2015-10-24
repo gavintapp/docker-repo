@@ -2,9 +2,9 @@
 <Container>
   <Name>Flickr-uploader</Name>
   <Beta>True</Beta>
-<Category>Productivity:</Category>
+  <Category>Productivity:</Category>
+  <Date>2015-10-24</Date>
   <Overview>Upload pictures to flicker</Overview>
-  <Support>http://lime-technology.com/forum/</Support>
   <Description></Description>
   <Registry>https://registry.hub.docker.com/u/snoopy86/flickr-uploader</Registry>
   <Repository>snoopy86/flickr-uploader</Repository>
