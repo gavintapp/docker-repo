@@ -2,9 +2,9 @@
 <Container>
   <Name>Alfresco</Name>
   <Beta>True</Beta>
-<Category>Productivity:</Category>
+  <Category>Productivity:</Category>
+  <Date>2015-10-24</Date>
   <Overview>Document management system</Overview>
-  <Support>http://lime-technology.com/forum/</Support>
   <Description></Description>
   <Registry>https://registry.hub.docker.com/u/mikelasla/alfresco-standalone</Registry>
   <Repository>mikelasla/alfresco-standalone</Repository>
